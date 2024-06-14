@@ -41,7 +41,7 @@
   - Add new type to switch statement
 
 ### Blackboard Breakdown:
-- Dictionary based with BlackboardKey type for key and object value with BlackboardEntry wrapper.
+- Dictionary based with BlackboardKey type for key and object value with BlackboardEntry underlying type.
 - strings can be converted to valid keys with GetOrRegisterKey(string key).
   - This will create a new key in the blackboard with an empty value or retrieve an existing one.
 - Set values with SetValue(BlackboardKey key, T value) with T being a valid valuetype from the above steps.
