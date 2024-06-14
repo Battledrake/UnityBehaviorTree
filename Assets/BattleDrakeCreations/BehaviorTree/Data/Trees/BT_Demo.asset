@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: FinishWithResult
   m_EditorClassIdentifier: 
   _guid: 699a1bba4b3dade42b0af91b4b9012ce
-  _position: {x: 614.57336, y: 268}
+  _position: {x: 615, y: 268}
   _returnResult: 1
 --- !u!114 &8435479718014237394
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: Repeater
   m_EditorClassIdentifier: 
   _guid: baf2d686c05986c4491563eb84e6834a
-  _position: {x: 104, y: -21}
+  _position: {x: 104, y: -20}
   _child: {fileID: 500855893327262948}
   _numberOfLoops: 3
   _isInfinite: 1
