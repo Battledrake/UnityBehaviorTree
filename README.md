@@ -6,7 +6,7 @@
 ![RunningTree](https://github.com/Battledrake/BehaviorTree/assets/37988801/d33447b2-807d-4b0f-ba53-a26198bc7a23)
 
 
-**Features added or improved upon:**
+**Additional Features:**
 - Root Node can't be deleted and is callback added to the behavior tree instance once during creation. This prevents asset addition errors by ensuring asset is finished being created before attempting to add root instance.
 - Undo and Redo working completely.
 - description override on each node to display data during evaluations.
