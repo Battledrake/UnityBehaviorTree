@@ -24,10 +24,10 @@ namespace BattleDrakeCreations.BehaviorTree
 
         private void Start()
         {
-            StartCoroutine(RunAILogic());
+            StartCoroutine(RunBehavior());
         }
 
-        private IEnumerator RunAILogic()
+        private IEnumerator RunBehavior()
         {
             NodeResult treeResult = NodeResult.Running;
             do
