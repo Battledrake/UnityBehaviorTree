@@ -35,6 +35,7 @@
   - Add a public member field of the type you want to add
   - Add an implicit operator. Just copy/paste existing and change type
   - Add to ConvertValue with (T)(object) like other non primitive examples.
+  - Add to setValueDispatchTable under BlackboardEntryData. Copy from existing and replace type.
 - BlackboardDataEditor Script
   - Add new type to switch statement. Use existing examples and replace type.
 - CompareBBEntries Script
