@@ -138,8 +138,6 @@ namespace BattleDrakeCreations.BehaviorTree
                 Undo.RecordObject(composite, "Behavior Tree (AddChild)");
                 composite.AddChild(child);
             }
-            EditorUtility.SetDirty(this);
-            AssetDatabase.SaveAssets();
         }
 
         public void RemoveChild(BTNode parent, BTNode child)
@@ -164,8 +162,6 @@ namespace BattleDrakeCreations.BehaviorTree
                 Undo.RecordObject(composite, "Behavior Tree (RemoveChild");
                 composite.RemoveChild(child);
             }
-            EditorUtility.SetDirty(this);
-            AssetDatabase.SaveAssets();
         }
 #endif
     }
