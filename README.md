@@ -7,6 +7,7 @@
 
 
 **Additional Features:**
+- Can now duplicate nodes. Ctrl + D to duplicate selections or Ctrl+C and Ctrl+V. Nodes are created but not edges, currently.
 - Root Node can't be deleted and is callback added to the behavior tree instance once during creation. This prevents asset addition errors by ensuring asset is finished being created before attempting to add root instance.
 - Undo and Redo working completely.
 - description override on each node to display data during evaluations.
