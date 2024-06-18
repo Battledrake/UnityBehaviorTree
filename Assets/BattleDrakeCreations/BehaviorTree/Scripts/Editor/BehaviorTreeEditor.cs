@@ -4,7 +4,6 @@ using UnityEngine.UIElements;
 using UnityEditor.Callbacks;
 using UnityEditor.UIElements;
 using System.Collections.Generic;
-using System;
 using UnityEditor.Experimental.GraphView;
 
 namespace BattleDrakeCreations.BehaviorTree
