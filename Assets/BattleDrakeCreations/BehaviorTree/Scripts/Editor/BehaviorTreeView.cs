@@ -221,11 +221,12 @@ namespace BattleDrakeCreations.BehaviorTree
             CreateNodeView(node);
         }
 
-        private void CreateNodeView(BTNode node)
+        public BTNodeView CreateNodeView(BTNode node)
         {
             BTNodeView nodeView = new BTNodeView(node, _settings.nodeXml);
             nodeView.OnNodeSelected = OnNodeSelected;
             AddElement(nodeView);
+            return nodeView;
         }
 
         public void UpdateNodeVisuals()

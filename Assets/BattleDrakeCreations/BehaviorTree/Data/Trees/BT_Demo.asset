@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SpawnPrefab
   m_EditorClassIdentifier: 
   _guid: 660e101705cddaf44ac2fd69c36d0364
-  _position: {x: 435.29578, y: 267.94327}
+  _position: {x: 364.7475, y: 142.54277}
   _stringKey: SpawnPrefab
   _objectLifetime: 2
 --- !u!114 &-4313893608775932452
@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Name: MoveDirectlyTo
   m_EditorClassIdentifier: 
   _guid: bf7be8d2c4ee6ad4ea4e90642d9ae65f
-  _position: {x: -38.704132, y: 267.94327}
+  _position: {x: -105.000015, y: 142.99997}
   _stringKey: PatrolPoint
   _arrivalRange: 0.2
   _agentSpeed: 10
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: Wait
   m_EditorClassIdentifier: 
   _guid: 81b7ab890d188ec4ab6410daef165971
-  _position: {x: 191.29585, y: 267.94327}
+  _position: {x: 120.74748, y: 142.54277}
   _waitTime: 2
 --- !u!114 &11400000
 MonoBehaviour:
@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Name: FindPatrolPoint
   m_EditorClassIdentifier: 
   _guid: c9fc7dfceb6261e4ab824b74c84a19ae
-  _position: {x: -340.70413, y: 267.94327}
+  _position: {x: -409.37924, y: 143.00002}
   _stringKey: PatrolPoint
   _randomOrder: 1
 --- !u!114 &500855893327262948
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: Sequencer
   m_EditorClassIdentifier: 
   _guid: ccca4cde252a3094c96cfde057a51352
-  _position: {x: 104, y: 114}
+  _position: {x: 33.747528, y: -11.457241}
   _children:
   - {fileID: 184956671213020671}
   - {fileID: -4313893608775932452}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: RootNode
   m_EditorClassIdentifier: 
   _guid: fee66dc249d9a5542bf83f9bcb7d41d7
-  _position: {x: 103.81921, y: -155.72884}
+  _position: {x: 33.747528, y: -301.45724}
   _childNode: {fileID: 8435479718014237394}
 --- !u!114 &3611315213606451434
 MonoBehaviour:
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: FinishWithResult
   m_EditorClassIdentifier: 
   _guid: 699a1bba4b3dade42b0af91b4b9012ce
-  _position: {x: 615, y: 268}
+  _position: {x: 576.4821, y: 143.00003}
   _returnResult: 1
 --- !u!114 &8435479718014237394
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: Repeater
   m_EditorClassIdentifier: 
   _guid: baf2d686c05986c4491563eb84e6834a
-  _position: {x: 104, y: -20}
+  _position: {x: 33.747528, y: -143.45724}
   _child: {fileID: 500855893327262948}
   _numberOfLoops: 3
   _isInfinite: 1
